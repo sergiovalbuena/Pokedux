@@ -2,6 +2,6 @@ import { Input } from "antd"
 
 export const Searcher = () => {
     return (
-        <Input.Search placeholder="Search... " />
+        <Input.Search placeholder="Search... " style={{ marginBottom: 10 }} />
     )
 }
